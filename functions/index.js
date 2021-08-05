@@ -6,7 +6,6 @@ const app = express();
 const cors = require('cors')({origin: true});
 app.use(cors);
 
-
 app.get('/', (req, res) => {
   const date = new Date();
   const hours = (date.getHours() % 12) + 1;  // London is UTC + 1hr;
