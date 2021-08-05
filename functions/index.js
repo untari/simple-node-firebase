@@ -31,3 +31,5 @@ app.get('/api', (req, res) => {
   res.json({bongs: 'BONG '.repeat(hours)});
 });
 
+exports.app = functions.https.onRequest(app);
+
