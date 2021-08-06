@@ -1,6 +1,6 @@
 # simple-node-firebase
 
-### This project created using node express.js and firebase function. The website creates an HTTPS function and then that replies to HTTPS requests with a BONG for each hour of the day, just like a clock.
+### This project created using ejs, express.js and firebase function. The website creates an HTTPS function and then that replies to HTTPS requests with a BONG for each hour of the day, just like a clock.
 
 ## To set up in your local machine: 
 * Clone this repository
